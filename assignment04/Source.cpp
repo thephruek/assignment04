@@ -3,7 +3,7 @@
 int main() {
     int k, x = 2;
     printf("Enter number : ");
-    scanf("%d", &k);
+    scanf_s("%d", &k);
     printf("Factoring Result : ");
     while (k != 1) {
         while (k % x == 0) {
